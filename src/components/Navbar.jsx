@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaBars, FaTimes, FaArrowRight } from "react-icons/fa";
-import { navItems } from "../data/portfolioData";
+import { navItems } from "../data/navigation";
 
 export const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);

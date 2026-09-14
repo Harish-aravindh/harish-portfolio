@@ -62,7 +62,10 @@ export const Projects = () => {
                     src={current.image}
                     alt={`${current.title} Preview`}
                     className="project-preview-img"
+                    width="960"
+                    height="540"
                     loading="lazy"
+                    decoding="async"
                   />
                 ) : (
                   <div className="project-preview-placeholder">

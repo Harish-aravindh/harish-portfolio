@@ -149,6 +149,10 @@ export const Hero = () => {
                 src={profileImage}
                 alt="Harish Aravindh"
                 className="avatar-circle-img"
+                width="520"
+                height="520"
+                fetchPriority="high"
+                decoding="async"
               />
               <span className="avatar-hover-message" aria-hidden="true">
                 Hey Buddy

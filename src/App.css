@@ -836,6 +836,22 @@
   .floating-badge-text strong {
     font-size: 0.78rem;
   }
+
+  .browser-url-bar {
+    width: 58%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .project-display-card,
+  .education-card,
+  .stat-box,
+  .contact-form-card,
+  .contact-info-card {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
 }
 
 @media (min-width: 1440px) {

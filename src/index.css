@@ -146,6 +146,12 @@ img {
 .section-padding {
   padding: 100px 0;
   position: relative;
+  content-visibility: auto;
+  contain-intrinsic-size: 800px;
+}
+
+.section-loading {
+  min-height: 800px;
 }
 
 @media (max-width: 768px) {
@@ -211,5 +217,18 @@ img {
 @media (max-width: 768px) {
   .section-heading h2 {
     font-size: 2rem;
+  }
+
+  .section-loading {
+    min-height: 520px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
