@@ -6,7 +6,7 @@ This project showcases my skills, projects, experience, and interests in **softw
 
 ## 🌐 Portfolio
 
-🔗 **Live Portfolio:** Coming Soon
+🔗 **Live Portfolio**: https://harisharavindhportfolio.netlify.app/
 
 🔗 **GitHub:** https://github.com/Harish-aravindh
 
